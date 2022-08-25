@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+    <style>
+        /* HEM TÜM BAŞLIKLARI HEM DE TÜM PARAGRAFLARI STİLLE */
+        /* h1,p{
+            color: red;
+            background: blue;
+        } */
+
+        /* ID'Sİ LOGO OLANLARI STİLLE */
+        /* #logo{
+            color: red;
+            background: blue;
+        } */
+
+        /* CLASS'I INFO OLANLARI STİLLE */
+        /* .info{
+            color: red;
+            background: blue;
+        } */
+
+        /* ID'Sİ LOGO, CLASS'I LEAD OLANLARI STİLLE */
+        /* #logo,.lead{
+            color: red;
+            background: blue;
+        } */
+
+        /* ID'Sİ PARA1 OLAN VE
+        AYNI ZAMANDA CLASS'I LEAD OLANLARI STİLLE */
+        /* #para1.lead{
+            color: red;
+            background: blue;
+        } */
+
+        /* <ul> nin altındaki <li> nin altındaki
+        <a> ların altındaki çizgiyi kaldır */
+        /* ul li a{
+            text-decoration: none;
+        } */
+
+        /* CLASS'I INFO OLANIN ALTINDAKİ SPAN'I STİLLE */
+        /* .info span{
+            color: red;
+        } */
+
+        /* CLASS'I INFO OLANIN ALTINDAKİ 
+        CLASS'I PRİMARY OLANLARI STİLLE */
+        /* .info .primary{
+            color: red;
+        } */
+
+        /* TÜM LAYOUT'UN FONT BÜYÜKLÜĞÜNÜ 30PX YAP */
+        /* *{
+            font-size: 30px;
+        } */
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+    </header>
+    <ul>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+    </ul>
+    <header>
+        <h1>Header 2</h1>
+    </header>
+    <p id="para1" class="lead info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, exercitationem.
+    </p>
+    <p class="info">
+        Lorem ipsum <span class="primary">dolor</span>, sit amet consectetur adipisicing elit. Impedit, sit.
+    </p>
+    <p class="info">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, in.
+    </p>
+    <p>Test Paragraph</p>
+
+    <a href="#">Home</a>
+
+</body>
+
+</html>
