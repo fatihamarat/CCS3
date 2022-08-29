@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Pseudo Elements</title>
+    <style>
+        p{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        p::first-line{
+            color: red;
+        }
+        p::first-letter{
+            color: blue;
+            font-size: 50px;
+        }
+
+        p::after{
+            content: "After Pararaph";
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vitae sed incidunt eius, nemo repellendus
+        necessitatibus exercitationem, eligendi inventore molestiae quas dolor repellat dolores quae, sapiente veniam
+        itaque ullam aliquid? Minus error rerum delectus impedit magnam blanditiis distinctio enim commodi reiciendis?
+        Iure, quod laborum delectus debitis fuga voluptas aliquam accusamus quas molestiae impedit. Dolore consectetur
+        possimus commodi tempore illum minima consequatur, ullam quo debitis! Illum dolores esse qui suscipit harum, at
+        sapiente ullam. Excepturi nesciunt odio corporis, eveniet sit quo fugiat. Tempora vitae ex asperiores
+        voluptatibus a consequatur, non, odit nobis officiis laudantium corrupti quia, dicta amet voluptates culpa
+        veritatis.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        a{
+            font-size: 2em;
+        }
+        a:link{
+            color: green;
+        }
+
+        a:visited{
+            color: black;
+            }
+        
+        a:hover{
+            color: red;
+        }
+        a:active{
+            color: blue;
+        }
+
+        input{
+            font-size: 2em;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: red;
+        }
+        input:focus{
+            outline: 0;
+            border: 2px solid blue ;
+            color: red;
+        }
+        a.facebook{
+            color: white;
+            font-size: 1.5em;
+            display: inline-block;
+            width: normal;
+            height: normal;
+            background: blue;
+            padding: 3px;
+            border: 2px solid blue;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        a.facebook:hover{
+            color: blue;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">This is Link</a>
+    <input type="text" placeholder="name">
+    <a class="facebook" href="https://tr-tr.facebook.com/" target="_blank">Facebook</a>
+</body>
+</html>
