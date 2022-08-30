@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            font-size: 1.5em;
+            width: 75%;
+            margin: 0 auto;
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+        thead tr{
+            background: blue;
+            color: white;
+        }
+        tbody tr:first-child{
+            background: #a7a7a7;
+        }
+        tbody tr:nth-child(2){
+            background: grey;
+        }
+        tbody tr:nth-child(3){
+            background: whitesmoke;
+        }
+        tbody tr:hover{
+            color: red;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Departman</th>
+                <th>Maaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fatih</td>
+                <td>HAMARAT</td>
+                <td>Bilişim</td>
+                <td>40.000</td>
+            </tr>
+            <tr>
+                <td>Süleyman</td>
+                <td>AKGÜN</td>
+                <td>Siber Güvenlik</td>
+                <td>40.000</td>
+            </tr>
+            <tr>
+                <td>Zübeyir</td>
+                <td>ERASLAN</td>
+                <td>Bilişim</td>
+                <td>40.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
